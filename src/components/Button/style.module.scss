@@ -1,0 +1,61 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    width: 200px;
+}
+
+.nav{
+    width: 45px;
+    height: 45px;
+    background-color: #8239F2;
+
+    &:hover{
+        background-color: #6d23dc;
+        cursor: pointer;
+    }
+}
+
+.green{
+    background-color: #43E8BE;
+
+    &:hover{
+        background-color: #1aac87;
+        cursor: pointer;
+    }
+}
+
+.red{
+    background-color: #D72C06;
+
+    &:hover{
+        background-color: #a72306;
+        cursor: pointer;
+    }
+}
+
+.green_login {
+    background-color: #43E8BE;
+    height: 45px;
+    width: 430px;
+
+    &:hover{
+        background-color: #1aac87;
+        cursor: pointer;
+    }
+}
+
+.purple_login{
+    height: 45px;
+    width: 430px;
+    background-color: #8239F2;
+
+    &:hover{
+        background-color: #6d23dc;
+        cursor: pointer;
+    }
+}
+

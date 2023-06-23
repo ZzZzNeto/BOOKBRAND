@@ -1,0 +1,46 @@
+.ProfileSection{
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link{
+        font-weight: bold;
+        font-size: 20px;
+        color: #8239F2;
+        text-decoration: none;
+        text-align: center;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }    
+}
+
+.userData{
+
+    h1{
+        font-size: 24px;
+        font-weight: bold;
+        color: #41414D;
+        margin-bottom: 0px;
+    }
+
+    .instagram{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            font-size: 16px;
+            color: #737380;
+            margin: 5px;
+        }
+    }
+}
+
+.image{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
